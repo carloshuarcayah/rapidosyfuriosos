@@ -15,19 +15,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Builder
-@Entity(name="ColorEntity")
-@Table(name="color")
-public class ColorEntity implements Serializable {
+@Entity(name="RolEntity")
+@Table(name="rol")
+public class RolEntity implements Serializable {
     private static final long serialVersionUID = 1L;
-
     @Id
-    @Column(name="codcol")
+    @Column(name="codrol")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigo;
 
-    @Column(name="nomcol", length = 30, nullable = false)
+    @Column(name="nomrol", length = 40, nullable = false)
     private String nombre;
 
-    @Column(name="estcol", nullable = false)
+    @Column(name="estrol", nullable = false)
     private boolean estado;
 }

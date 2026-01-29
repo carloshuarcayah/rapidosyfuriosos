@@ -1,4 +1,4 @@
-package pe.com.rapidosyfuriosos.rapidosyfuriosos;
+package pe.com.rapidosyfuriosos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

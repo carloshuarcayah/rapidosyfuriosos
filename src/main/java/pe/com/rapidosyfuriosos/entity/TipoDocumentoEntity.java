@@ -22,7 +22,7 @@ public class TipoDocumentoEntity implements Serializable {
     @Column(name="codtipd")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigo;
-    @Column(name="nomtipdd", length = 30,nullable = false)
+    @Column(name="nomtipd", length = 30,nullable = false)
     private String nombre;
     @Column(name="esttipd",nullable = false)
     private boolean estado;

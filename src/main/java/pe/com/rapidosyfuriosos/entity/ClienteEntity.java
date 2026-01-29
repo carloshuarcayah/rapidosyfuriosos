@@ -61,7 +61,7 @@ public class ClienteEntity implements Serializable {
     private SexoEntity sexo;
 
     @ManyToOne
-    @JoinColumn(name = "codtipdd",nullable = false)
+    @JoinColumn(name = "codtipd",nullable = false)
     private TipoDocumentoEntity tipodocumento;
 }
 

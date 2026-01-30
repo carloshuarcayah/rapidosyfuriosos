@@ -28,7 +28,7 @@ public class ClienteEntity implements Serializable {
     @Id
     @Column(name="codcli")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
     @Column(name="nomcli", length = 40,nullable = false)
     private String nombre;
     @Column(name="apepcli", length = 40,nullable = false)

@@ -21,7 +21,7 @@ public class TipoDocumentoEntity implements Serializable {
     @Id
     @Column(name="codtipd")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
     @Column(name="nomtipd", length = 30,nullable = false)
     private String nombre;
     @Column(name="esttipd",nullable = false)

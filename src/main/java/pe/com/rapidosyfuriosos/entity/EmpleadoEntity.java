@@ -28,7 +28,7 @@ public class EmpleadoEntity implements Serializable {
     @Id
     @Column(name="codemp")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
 
     @Column(name="nomemp", length = 40, nullable = false)
     private String nombre;

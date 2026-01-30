@@ -24,7 +24,7 @@ public class DistritoEntity implements Serializable {
     @Id//define la clave primaria
     @Column(name="coddis")//define la columna con la cual se relaciona
     @GeneratedValue(strategy = GenerationType.IDENTITY)//es para el autoincremento
-    private long codigo;
+    private Long codigo;
     @Column(name="nomdis", length = 50,nullable = false)
     private String nombre;
     @Column(name="estdis",nullable = false)

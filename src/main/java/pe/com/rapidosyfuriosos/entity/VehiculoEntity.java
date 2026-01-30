@@ -26,7 +26,7 @@ public class VehiculoEntity implements Serializable {
     @Id
     @Column(name="codveh")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
 
     @Column(name="plaveh", length = 10, nullable = false)
     private String placa;

@@ -23,7 +23,7 @@ public class ServicioEntity implements Serializable {
     @Id
     @Column(name="codser")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
 
     @Column(name="nomser", length = 50, nullable = false)
     private String nombre;

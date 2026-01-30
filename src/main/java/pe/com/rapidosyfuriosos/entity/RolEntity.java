@@ -22,7 +22,7 @@ public class RolEntity implements Serializable {
     @Id
     @Column(name="codrol")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
 
     @Column(name="nomrol", length = 40, nullable = false)
     private String nombre;

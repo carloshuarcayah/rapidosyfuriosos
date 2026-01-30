@@ -21,7 +21,7 @@ public class SexoEntity implements Serializable {
     @Id
     @Column(name="codsex")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
     @Column(name="nomsex", length = 20,nullable = false)
     private String nombre;
     @Column(name="estsex",nullable = false)

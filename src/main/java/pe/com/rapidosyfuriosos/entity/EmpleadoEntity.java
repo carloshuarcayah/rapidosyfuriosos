@@ -65,7 +65,7 @@ public class EmpleadoEntity implements Serializable {
     private String clave;
 
     @Column(name="estemp", nullable = false)
-    private boolean estado;
+    private Boolean estado;
 
     // CLAVES FORANEAS
     @ManyToOne

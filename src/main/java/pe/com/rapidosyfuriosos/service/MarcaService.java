@@ -3,7 +3,7 @@ package pe.com.rapidosyfuriosos.service;
 import pe.com.rapidosyfuriosos.entity.MarcaEntity;
 import java.util.List;
 
-public interface IMarcaService {
+public interface MarcaService {
     List<MarcaEntity> findAll();
     List<MarcaEntity> findAllCustom();
     MarcaEntity findById(Long id);

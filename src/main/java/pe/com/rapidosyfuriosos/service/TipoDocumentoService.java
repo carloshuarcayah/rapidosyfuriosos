@@ -4,7 +4,7 @@ import pe.com.rapidosyfuriosos.entity.TipoDocumentoEntity;
 
 import java.util.List;
 
-public interface ITipoDocumentoService {
+public interface TipoDocumentoService {
     List<TipoDocumentoEntity> findAll();
     List<TipoDocumentoEntity> findAllCustom();
     TipoDocumentoEntity findById(Long id);

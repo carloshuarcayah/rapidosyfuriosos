@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.SexoEntity;
 import pe.com.rapidosyfuriosos.repository.SexoRepository;
-import pe.com.rapidosyfuriosos.service.ISexoService;
+import pe.com.rapidosyfuriosos.service.SexoService;
 
 import java.util.List;
 
 @Service
-public class SexoServiceImpl implements ISexoService {
+public class SexoServiceImpl implements SexoService {
     @Autowired
     private SexoRepository repositorio;
 

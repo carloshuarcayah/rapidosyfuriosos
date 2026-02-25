@@ -49,7 +49,7 @@ public class ClienteEntity implements Serializable {
     @Column(name="corcli", length = 100,nullable = false)
     private String correo;
     @Column(name="estcli",nullable = false)
-    private boolean estado;
+    private Boolean estado;
 
     //PARA LAS CLAVES FORANEAS
     @ManyToOne //relacion de muchos a uno

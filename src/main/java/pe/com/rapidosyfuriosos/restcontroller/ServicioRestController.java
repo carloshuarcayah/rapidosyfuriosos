@@ -3,7 +3,7 @@ package pe.com.rapidosyfuriosos.restcontroller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import pe.com.rapidosyfuriosos.entity.ServicioEntity;
-import pe.com.rapidosyfuriosos.service.IServicioService;
+import pe.com.rapidosyfuriosos.service.ServicioService;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class ServicioRestController {
 
     @Autowired
-    private IServicioService servicio;
+    private ServicioService servicio;
 
     @GetMapping
     public List<ServicioEntity> findAll(){

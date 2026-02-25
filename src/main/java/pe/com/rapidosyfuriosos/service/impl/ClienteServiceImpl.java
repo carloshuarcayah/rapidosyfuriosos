@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.ClienteEntity;
 import pe.com.rapidosyfuriosos.repository.ClienteRepository;
-import pe.com.rapidosyfuriosos.service.IClienteService;
+import pe.com.rapidosyfuriosos.service.ClienteService;
 
 import java.util.List;
 
 @Service
-public class ClienteServiceImpl implements IClienteService {
+public class ClienteServiceImpl implements ClienteService {
     @Autowired
     private ClienteRepository repositorio;
 

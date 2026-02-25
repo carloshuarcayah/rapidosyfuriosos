@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.RolEntity;
 import pe.com.rapidosyfuriosos.repository.RolRepository;
-import pe.com.rapidosyfuriosos.service.IRolService;
+import pe.com.rapidosyfuriosos.service.RolService;
 
 import java.util.List;
 
 @Service
-public class RolServiceImpl implements IRolService {
+public class RolServiceImpl implements RolService {
     @Autowired
     private RolRepository repositorio;
 

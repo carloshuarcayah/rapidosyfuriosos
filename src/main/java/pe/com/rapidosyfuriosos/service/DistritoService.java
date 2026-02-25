@@ -4,7 +4,7 @@ import pe.com.rapidosyfuriosos.entity.DistritoEntity;
 
 import java.util.List;
 
-public interface IDistritoService {
+public interface DistritoService {
     List<DistritoEntity> findAll();
     List<DistritoEntity> findAllCustom();
     DistritoEntity findById(Long id);

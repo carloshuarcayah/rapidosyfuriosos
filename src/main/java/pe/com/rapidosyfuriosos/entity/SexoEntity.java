@@ -25,5 +25,5 @@ public class SexoEntity implements Serializable {
     @Column(name="nomsex", length = 20,nullable = false)
     private String nombre;
     @Column(name="estsex",nullable = false)
-    private boolean estado;
+    private Boolean estado;
 }

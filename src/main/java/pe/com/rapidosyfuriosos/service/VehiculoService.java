@@ -3,7 +3,7 @@ package pe.com.rapidosyfuriosos.service;
 import pe.com.rapidosyfuriosos.entity.VehiculoEntity;
 import java.util.List;
 
-public interface IVehiculoService {
+public interface VehiculoService {
     List<VehiculoEntity> findAll();
     List<VehiculoEntity> findAllCustom();
     VehiculoEntity findById(Long id);

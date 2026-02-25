@@ -32,8 +32,8 @@ public class ServicioEntity implements Serializable {
     private String descripcion;
 
     @Column(name="preser", nullable = false)
-    private double precio;
+    private Double precio;
 
     @Column(name="estser", nullable = false)
-    private boolean estado;
+    private Boolean estado;
 }

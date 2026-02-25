@@ -22,11 +22,11 @@ public class MarcaEntity implements Serializable {
     @Id
     @Column(name="codmar")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long codigo;
+    private Long codigo;
 
     @Column(name="nommar", length = 50, nullable = false)
     private String nombre;
 
     @Column(name="estmar", nullable = false)
-    private boolean estado;
+    private Boolean estado;
 }

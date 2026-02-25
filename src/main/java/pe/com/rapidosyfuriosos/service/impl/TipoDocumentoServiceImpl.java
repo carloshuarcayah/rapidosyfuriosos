@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.TipoDocumentoEntity;
 import pe.com.rapidosyfuriosos.repository.TipoDocumentoRepository;
-import pe.com.rapidosyfuriosos.service.ITipoDocumentoService;
+import pe.com.rapidosyfuriosos.service.TipoDocumentoService;
 
 import java.util.List;
 
 @Service
-public class TipoDocumentoServiceImpl implements ITipoDocumentoService {
+public class TipoDocumentoServiceImpl implements TipoDocumentoService {
     @Autowired
     private TipoDocumentoRepository repositorio;
 

@@ -4,7 +4,7 @@ import pe.com.rapidosyfuriosos.entity.ClienteEntity;
 
 import java.util.List;
 
-public interface IClienteService {
+public interface ClienteService {
     List<ClienteEntity> findAll();
     List<ClienteEntity> findAllCustom();
     ClienteEntity findById(Long id);

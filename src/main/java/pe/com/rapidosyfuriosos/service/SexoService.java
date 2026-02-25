@@ -4,7 +4,7 @@ import pe.com.rapidosyfuriosos.entity.SexoEntity;
 
 import java.util.List;
 
-public interface ISexoService {
+public interface SexoService {
     List<SexoEntity> findAll();
     List<SexoEntity> findAllCustom();
     SexoEntity findById(Long id);

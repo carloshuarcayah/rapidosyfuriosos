@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.ColorEntity;
 import pe.com.rapidosyfuriosos.repository.ColorRepository;
-import pe.com.rapidosyfuriosos.service.IColorService;
+import pe.com.rapidosyfuriosos.service.ColorService;
 
 import java.util.List;
 
 @Service
-public class ColorServiceImpl implements IColorService {
+public class ColorServiceImpl implements ColorService {
     @Autowired
     private ColorRepository repositorio;
 

@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.DistritoEntity;
 import pe.com.rapidosyfuriosos.repository.DistritoRepository;
-import pe.com.rapidosyfuriosos.service.IDistritoService;
+import pe.com.rapidosyfuriosos.service.DistritoService;
 
 import java.util.List;
 
 @Service
-public class DistritoServiceImpl implements IDistritoService {
+public class DistritoServiceImpl implements DistritoService {
     @Autowired
     private DistritoRepository repositorio;
 

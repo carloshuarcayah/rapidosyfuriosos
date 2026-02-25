@@ -3,7 +3,7 @@ package pe.com.rapidosyfuriosos.service;
 import pe.com.rapidosyfuriosos.entity.RolEntity;
 import java.util.List;
 
-public interface IRolService {
+public interface RolService {
     List<RolEntity> findAll();
     List<RolEntity> findAllCustom();
     RolEntity findById(Long id);

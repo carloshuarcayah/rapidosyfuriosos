@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pe.com.rapidosyfuriosos.entity.MarcaEntity;
 import pe.com.rapidosyfuriosos.repository.MarcaRepository;
-import pe.com.rapidosyfuriosos.service.IMarcaService;
+import pe.com.rapidosyfuriosos.service.MarcaService;
 
 import java.util.List;
 
 @Service
-public class MarcaServiceImpl implements IMarcaService {
+public class MarcaServiceImpl implements MarcaService {
     @Autowired
     private MarcaRepository repositorio;
 

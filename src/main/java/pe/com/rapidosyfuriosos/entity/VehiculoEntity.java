@@ -35,10 +35,10 @@ public class VehiculoEntity implements Serializable {
     private String modelo;
 
     @Column(name="anioveh", nullable = false)
-    private int anio;
+    private Integer anio;
 
     @Column(name="estveh", nullable = false)
-    private boolean estado;
+    private Boolean estado;
 
     // CLAVES FORANEAS
     @ManyToOne

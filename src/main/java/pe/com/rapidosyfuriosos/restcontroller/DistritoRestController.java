@@ -3,7 +3,7 @@ package pe.com.rapidosyfuriosos.restcontroller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import pe.com.rapidosyfuriosos.entity.DistritoEntity;
-import pe.com.rapidosyfuriosos.service.IDistritoService;
+import pe.com.rapidosyfuriosos.service.DistritoService;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class DistritoRestController {
 
     @Autowired
-    private IDistritoService servicio;
+    private DistritoService servicio;
 
     @GetMapping
     public List<DistritoEntity> findAll(){

@@ -25,5 +25,5 @@ public class TipoDocumentoEntity implements Serializable {
     @Column(name="nomtipd", length = 30,nullable = false)
     private String nombre;
     @Column(name="esttipd",nullable = false)
-    private boolean estado;
+    private Boolean estado;
 }

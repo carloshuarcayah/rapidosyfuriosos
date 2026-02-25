@@ -29,5 +29,5 @@ public class ColorEntity implements Serializable {
     private String nombre;
 
     @Column(name="estcol", nullable = false)
-    private boolean estado;
+    private Boolean estado;
 }
